@@ -18,22 +18,24 @@ const HeaderOne = () => {
       <header className={`theme-main-menu menu-overlay menu-style-two sticky-menu ${sticky?'fixed':''}`}>
         <div className="gap-fix info-row">
           <div className="d-md-flex justify-content-between">
-            <div className="greetings text-center"><span className="opacity-50">Hello!!</span> <span className="fw-500">Welcome to Luqya.</span></div>
-            <ul className="style-none d-none d-md-flex contact-info">
+          <div className="greetings text-center">
+  <span className="opacity-50">هلا والله!</span>
+  <span className="fw-500">نورتنا في لُقيّا.</span>
+</div> <ul className="style-none d-none d-md-flex contact-info">
               <li className="d-flex align-items-center">
-                <Image src={icon_1} alt="icon" className="lazy-img icon me-2" /> 
+                <Image src={icon_1} alt="icon" className="lazy-img icon mx-2" /> 
                 <Link href="mailto:Luqyainc@company.com" className="fw-500">Luqyainc@company.com</Link>
                 </li>
               <li className="d-flex align-items-center">
-                <Image src={icon_2} alt="icon" className="lazy-img icon me-2" /> 
-                <Link href="tel:+757 699-4478" className="fw-500">+757 699-4478</Link>
+                <Image src={icon_2} alt="icon" className="lazy-img icon mx-2" /> 
+                <Link href="tel:+757 699-4478" className="fw-500">+53 558 1435</Link>
                 </li>
             </ul>
           </div>
         </div>
         <div className="inner-content gap-fix">
           <div className="top-header position-relative">
-            <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center ">
               <div className="logo order-lg-0">
                 <Link href="/" className="d-flex align-items-center">
                   <Image src={logo} alt="logo" />
@@ -42,14 +44,14 @@ const HeaderOne = () => {
 
               <div className="right-widget order-lg-3 ms-auto">
                 <ul className="d-flex align-items-center style-none">
-                  <li className="d-flex align-items-center login-btn-one me-3 me-md-0">
+                  <li className="d-flex align-items-center login-btn-one mx-3 me-md-0">
                     <Image src={icon_3} alt="icon" className="lazy-img icon me-2" />
-                    <Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="fw-500">Login</Link>
+                    <Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="fw-500">تسجيل دخول</Link>
                   </li>
-                  <li className="d-none d-md-inline-block ms-3 ms-lg-5 me-3 me-lg-0">
+                  <li className="d-none d-md-inline-block ms-3 ms-lg-5 mx-3 me-lg-0">
                     <Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="signup-btn-one icon-link">
-                      <span>Signup</span>
-                      <div className="icon rounded-circle d-flex align-items-center justify-content-center"><i className="bi bi-arrow-right"></i></div>
+                      <span>تسجيل جديد</span>
+                      <div className="icon rounded-circle d-flex align-items-center justify-content-center"><i className="bi bi-arrow-left"></i></div>
                     </Link>
                   </li>
                 </ul>

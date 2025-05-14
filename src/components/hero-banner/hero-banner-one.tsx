@@ -24,27 +24,27 @@ const HeroBannerOne = () => {
         <div className="container position-relative">
           <div className="row">
             <div className="col-lg-10 m-auto">
-              <h1 className="hero-heading text-center fw-bold wow fadeInUp mt-10">Your Goals, Our Expertise – <span className="d-inline-block position-relative">Financial 
+              <h1 className="hero-heading text-center fw-bold wow fadeInUp mt-100"> دعوتك... رقمية، أنيقة، تُعبّر عن <span className="d-inline-block position-relative">ذوقك 
                <Image src={shape} alt="shape" className="lazy-img" style={imageStyle} />
-              </span> Success
+              </span> وتدار بذكاء..
               </h1>
-              <p className="text-xl text-center pt-35 pb-35 wow fadeInUp" data-wow-delay="0.1s">Finance insights enable smart moves towards wealth & security.</p>
-              <form onSubmit={handleSubmit} className="m-auto position-relative wow fadeInUp" data-wow-delay="0.2s">
+              <p className="text-xl text-center pt-35 pb-35 wow fadeInUp" data-wow-delay="0.1s">حمّل دعوتك، اختر المدعوين، واترك علينا الباقي — من الإرسال حتى تأكيد الحضور</p>
+              {/* <form onSubmit={handleSubmit} className="m-auto position-relative wow fadeInUp" data-wow-delay="0.2s">
                 <input type="email" placeholder="Your email address..." />
                 <button className="btn-four">Connect</button>
-              </form>
+              </form> */}
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-xl-10 m-auto">
               <div className="partner-logo-one pt-80 md-p-70">
                 <p className="fw-500 text-dark text-center mb-40"><span className="text-decoration-underline">Join 27,000+</span> companies who’ve reached </p>
-                {/* partner slider start */}
+            
                 <PartnersSliderOne/>
-                {/* partner slider end */}
+       
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <Image src={shape_2} alt="shape" className="lazy-img shapes shape_01" style={imageStyle} />
         <Image src={shape_3} alt="shape" className="lazy-img shapes shape_02" style={imageStyle} />

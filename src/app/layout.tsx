@@ -1,7 +1,12 @@
+import { Changa } from 'next/font/google'; // ✅ Fixed import
 import type { Metadata } from "next";
 import "./globals.scss";
 import { Providers } from "@/redux/provider";
 
+const changa = Changa({
+  weight: ['400', '500', '700'],
+  subsets: ['arabic'],
+});
 
 export const metadata: Metadata = {
   title: "Luqya - Business & Finance Next js Template",
@@ -14,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="ar" dir="rtl">
+      <body className={changa.className}>
         <Providers>{children}</Providers>
       </body>
     </html>

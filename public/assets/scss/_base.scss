@@ -4,11 +4,11 @@
 ::-webkit-scrollbar-track { background: #fff;}
 ::-webkit-scrollbar-thumb { background: $heading; border-radius: 0;}
 body {
-  font-family: $main-font;
   font-weight: normal;
   font-size: 20px;
   position: relative;
   color: $text-color;
+    text-align: right;
 }
 .main-page-wrapper {
   overflow-x: hidden;
