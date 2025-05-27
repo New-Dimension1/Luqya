@@ -33,7 +33,7 @@ const ContactArea = () => {
     <div className="contact-us-section pt-150 lg-pt-80">
       <div className="container">
         <div className="position-relative">
-          <div className="row">
+          {/* <div className="row">
             <div className="col-12 m-auto">
               <div className="row">
                 <div className="col-md-4">
@@ -59,9 +59,9 @@ const ContactArea = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="bg-wrapper light-bg mt-80 lg-mt-40">
+          <div className="bg-wrapper light-bg mt-10 lg-mt-40">
             <div className="row">
               <div className="col-lg-5">
                 <div className="d-flex flex-column flex-lg-column-reverse">
@@ -74,8 +74,8 @@ const ContactArea = () => {
                       />
                     </div>
                   </div>
-                  <div className="title-one text-center text-lg-start md-mt-20 mb-70 md-mb-30">
-                    <h2>Have inquiries? Reach out via message</h2>
+                  <div className="title-one text-center  md-mt-20 mb-70 md-mb-30">
+                    <h2>ودك تعرف أكثر؟ راسلنا ولا تتردد!</h2>
                   </div>
                 </div>
               </div>
@@ -90,14 +90,14 @@ const ContactArea = () => {
           </div>
         </div>
       </div>
-      <div className="map-banner mt-120 lg-mt-80">
+      {/* <div className="map-banner mt-120 lg-mt-80">
         <div className="gmap_canvas h-100 w-100">
           <iframe
             className="gmap_iframe h-100 w-100"
             src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=dhaka collage&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

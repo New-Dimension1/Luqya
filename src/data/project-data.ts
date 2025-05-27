@@ -3,55 +3,59 @@ import bg_img_2 from '@/assets/images/media/img_02.jpg';
 import bg_img_3 from '@/assets/images/media/img_16.jpg';
 import { IProject } from '@/types/project-d-t';
 
-const project_data:IProject[] = [
+const project_data: IProject[] = [
   {
-    id:1,
-    title:'1. The Criminal Mind Analysis & Results',
-    body_title:'Approach',
-    body_desc:'Consultants specializing in strategy support organizations in achieving competitive excellence through deliberate.',
-    body_subtitle:'FINAL results',
-    body_lists:[
-      'Expanded investment via Innovative Solutions.',
-      'Improving risk management with advanced analytics.',
-      'Grow profit, enhanced clients satisfaction.'
-    ],
-    bg_img:bg_img_1,
-    video_id:'aXFSJTjVjw0',
-    parent:'accordionOne',
-    page:'home'
+    id: 1,
+    title: 'إدارة دعواتك باحترافية',
+    body_title: 'إرسال آلي للدعوات والتذكيرات',
+    body_desc: 'أرسل الدعوات لضيوفك بسهولة من خلال التطبيق، حيث يتم إرسال الدعوة بشكل آلي مع التذكيرات. تصل الدعوة من رقم لقيا إلى الضيف بكل سلاسة.',
+    body_subtitle: 'مزايا إضافية',
+   body_lists: [
+  'إرسال الدعوات والتذكيرات بشكل أوتوماتيكي وسهل.',
+  'تعرف كم شخص أكد وكم شخص اعتذر بكل بساطة.',
+  'تتبع فوري لحالة الدعوات: هل تم إرسالها؟ هل وصلوا للضيف؟ هل قرأ الرسالة؟',
+  'استخدم لقيا سكانر لتأكد من QR المدعوين في يوم المناسبة.',
+  'تقدر ترد على رسائل الضيوف بكل سهولة من خلال التطبيق.'
+],
+
+    bg_img: bg_img_1,
+    video_id: 'aXFSJTjVjw0',
+    parent: 'accordionOne',
+    page: 'home'
   },
   {
-    id:2,
-    title:'2. Invest the saving fund in proper way to get healthy return.',
-    body_title:'Approach',
-    body_desc:'Consultants specializing in strategy support organizations in achieving competitive excellence through deliberate.',
-    body_subtitle:'FINAL results',
-    body_lists:[
-      'Expanded investment via Innovative Solutions.',
-      'Improving risk management with advanced analytics.',
-      'Grow profit, enhanced clients satisfaction.'
+    id: 2,
+    title: 'كل ما يحتاجه ضيفك وأكثر',
+    body_title: 'بدون روابط وخصوصية عالية',
+    body_desc: 'نحن نوفر تفاعلًا مباشرًا عبر الواتساب بدون الحاجة لفتح روابط، مما يعزز الخصوصية والتفاعل بينك وبين ضيوفك.',
+    body_subtitle: 'مزايا إضافية لضيفك',
+     body_lists: [
+      'الضيف يقدر يأكد الحضور بسهولة من خلال التطبيق.',
+      'كل ضيف له كود QR خاص يستخدمه مرة واحدة بس.',
+      'أضف موقع الحفل عشان يسهل الوصول للضيوف.',
+      'الضيف يقدر يتواصل مع صاحب المناسبة مباشرة لأي استفسار أو اعتذار.'
     ],
-    bg_img:bg_img_2,
-    video_id:'DPjYyCcw4Po',
-    parent:'accordionOne',
-    page:'home'
+    bg_img: bg_img_2,
+    video_id: 'DPjYyCcw4Po',
+    parent: 'accordionOne',
+    page: 'home'
   },
   {
-    id:3,
-    title:'3. Digital Transformation Roadmap',
-    body_title:'Approach',
-    body_desc:'Consultants specializing in strategy support organizations in achieving competitive excellence through deliberate.',
-    body_subtitle:'FINAL results',
-    body_lists:[
-      'Expanded investment via Innovative Solutions.',
-      'Improving risk management with advanced analytics.',
-      'Grow profit, enhanced clients satisfaction.'
+    id: 3,
+    title: 'خيارات تخصيص إضافية',
+    body_title: 'تخصيص دعواتك بسهولة',
+    body_desc: 'نقدم لك العديد من الخيارات لتخصيص دعواتك كما تريد. من تغيير الرقم الذي ترسل منه الدعوات إلى تعديل نص الدعوة أو تغيير تصميم كود الدخول.',
+    body_subtitle: 'تخصيص دعواتك',
+    body_lists: [
+      'غير الرقم اللي ترسل منه الدعوات.',
+      'عدل نص الدعوة كيف ما تحب.',
+      'تقدر تخصص تصميم كود الدخول بالطريقة اللي تبيها.',
     ],
-    bg_img:bg_img_3,
-    video_id:'aXFSJTjVjw0',
-    isShow:true,
-    parent:'accordionOne',
-    page:'home'
+    bg_img: bg_img_3,
+    video_id: 'aXFSJTjVjw0',
+    isShow: true,
+    parent: 'accordionOne',
+    page: 'home'
   },
 ]
 

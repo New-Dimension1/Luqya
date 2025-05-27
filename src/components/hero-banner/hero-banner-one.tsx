@@ -4,8 +4,8 @@ import Image from 'next/image';
 import shape from '@/assets/images/shape/shape_04.svg';
 import shape_2 from '@/assets/images/shape/shape_05.svg';
 import shape_3 from '@/assets/images/shape/shape_06.svg';
-import screen from '@/assets/images/assets/screen_02.png';
-import screen_2 from '@/assets/images/assets/screen_03.png';
+import screen from '@/assets/images/assets/screen_05.png';
+import screen_2 from '@/assets/images/assets/screen_04.png';
 import PartnersSliderOne from '../partners/partners-slider-one';
 
 // imageStyle

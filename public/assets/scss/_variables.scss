@@ -5,18 +5,36 @@ $magnita: 'Magnita';
 $bootstrapFont: 'bootstrap-icons';
 
 // Color Settings
-$text-color: rgba(0,0,0,0.7);
-$text-dark: #000;
-$heading: #19352D;
-$color-one: #CFFF45;
-$color-two: #29594B;
-$color-three:#0C3A30;
-$color-four: #E6FD5A;
-$color-five: #0E3E2F;
-$color-six: #DFFF5E;
-$color-seven: #044F3B;
-$color-eight: #1F5E59;
-$color-nine: #D0FF45;
-$light-bg-one: #EBF3EE;
-$light-bg-two: #EDF1EE;
-$cyan: #DCEFF0;
+// $text-color: rgba(0,0,0,0.7);
+// $text-dark: #000;
+// $heading: #19352D;
+// $color-one: #CFFF45;
+// $color-two: #29594B;
+// $color-three:#0C3A30;
+// $color-four: #E6FD5A;
+// $color-five: #0E3E2F;
+// $color-six: #DFFF5E;
+// $color-seven: #044F3B;
+// $color-eight: #1F5E59;
+// $color-nine: #D0FF45;
+// $light-bg-one: #EBF3EE;
+// $light-bg-two: #EDF1EE;
+// $cyan: #DCEFF0;
+
+
+$text-color: rgba(0, 0, 0, 0.8);
+$text-dark: #1F1F1F;
+$heading: #490606; // عنابي داكن – لون الشعار الرئيسي
+$color-one: #490606; // اللون الأساسي (Brand color)
+$color-two: #BF6933; // اللون الثانوي (لأزرار، لمسات جمالية)
+$color-three: #F8F5F0; // عاجي أنيق – خلفيات
+$color-four: #3B3B3B; // رمادي فخم – للنصوص الثانوية
+$color-five: #D6AF60; // ذهبي مطفي (اختياري للتفاصيل أو الأيقونات)
+$color-six: #7C3F1D; // بني ملكي – للتوازن مع النحاسي
+$color-seven: #EAD4C2; // وردي فاتح دافئ (اختياري للخلفيات)
+$color-eight: #5A4B46; // بني فحمي للنصوص الداكنة
+$color-nine: #F3ECE6; // بيج فاتح جداً – خلفيات ناعمة
+$light-bg-one: #F8F5F0; // عاجي – خلفية رئيسية
+$light-bg-two: #F3ECE6; // درجة ثانية من العاجي
+$cyan: #DCEFF0; // ممكن حذفه أو استبداله بدرجة وردي فاتح حسب الذوق
+

@@ -9,7 +9,7 @@ import FeedbackTwo from "@/components/feedback/feedback-two";
 import FaqSectionTwo from "@/components/faq/faq-section-two";
 import HomeBlogs from "@/components/blogs/home-blogs";
 import FancyBannerThree from "@/components/fancy-banner/fancy-banner-three";
-import FooterTwo from "@/layout/footer/footer-two";
+import FooterTwo from "@/layout/footer/footer-three";
 
 export default function HomePage() {
   return (
@@ -24,19 +24,26 @@ export default function HomePage() {
           {/* hero banner end */}
 
           {/* text feature start */}
+              <section id="why-loqya">
           <TextFeatureTwo />
+          </section>
           {/* text feature end */}
 
           {/* block feature four start */}
-          <BlockFeatureFour />
+          {/* <BlockFeatureFour /> */}
           {/* block feature four end */}
 
           {/* text feature start */}
-          <TextFeatureThree />
+      
+  <TextFeatureThree />
+
           {/* text feature end */}
 
           {/* block feature five start */}
-          <BlockFeatureFive />
+       
+         <section id="pricing"> 
+           <BlockFeatureFive />
+          </section>  
           {/* block feature five end */}
 
           {/* feedback two start */}
@@ -48,11 +55,11 @@ export default function HomePage() {
           {/* project faq area end */}
 
           {/* blog item start */}
-          <HomeBlogs/>
+          {/* <HomeBlogs/> */}
           {/* blog item end */}
 
           {/* fancy banner three start */}
-          <FancyBannerThree/>
+          {/* <FancyBannerThree/> */}
           {/* fancy banner three end */}
         </main>
 

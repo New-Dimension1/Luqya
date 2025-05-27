@@ -22,7 +22,7 @@ const LoginModal = () => {
               type="button"
               className="btn-close"
               data-bs-dismiss="modal"
-              aria-label="Close"
+              aria-label="إغلاق"
             ></button>
             <div className="form-wrapper m-auto">
               <ul className="nav nav-tabs border-0 w-100" role="tablist">
@@ -35,7 +35,7 @@ const LoginModal = () => {
                     aria-selected="true"
                     tabIndex={-1}
                   >
-                    Login
+                    تسجيل دخول
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
@@ -47,53 +47,46 @@ const LoginModal = () => {
                     aria-selected="false"
                     tabIndex={-1}
                   >
-                    Signup
+                    إنشاء حساب
                   </button>
                 </li>
               </ul>
               <div className="tab-content mt-30">
                 <div className="tab-pane show active" role="tabpanel" id="fc1">
                   <div className="text-center mb-20">
-                    <h2>Hi, Welcome Back!</h2>
+                    <h2>أهلًا، رجعنا من جديد!</h2>
                     <p>
-                      Still do not have an account? <Link href="#">Sign up</Link>
+                      ما عندك حساب؟ <Link href="#">سجّل الآن</Link>
                     </p>
                   </div>
-                  {/* login form start */}
+                  {/* نموذج تسجيل الدخول */}
                   <LoginForm />
-                  {/* login form end */}
                 </div>
                 <div className="tab-pane" role="tabpanel" id="fc2">
                   <div className="text-center mb-20">
-                    <h2>Register</h2>
+                    <h2>إنشاء حساب جديد</h2>
                     <p>
-                      Already have an account? <Link href="#">Login</Link>
+                      عندك حساب؟ <Link href="#">تسجيل دخول</Link>
                     </p>
                   </div>
-                  {/* register form start */}
+                  {/* نموذج التسجيل */}
                   <RegisterForm />
-                  {/* register form end */}
                 </div>
               </div>
 
               <div className="d-flex align-items-center mt-30 mb-10">
                 <div className="line"></div>
-                <span className="pe-3 ps-3 fs-6">OR</span>
+                <span className="pe-3 ps-3 fs-6">أو</span>
                 <div className="line"></div>
               </div>
               <div className="row">
-                <div className="col-sm-6">
+                <div className="col-sm-12">
                   <Link href="#" className="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
                     <Image src={google} alt="google" />
-                    <span className="ps-3">Signup with Google</span>
+                    <span className="ps-3">سجّل عن طريق Google</span>
                   </Link>
                 </div>
-                <div className="col-sm-6">
-                  <Link href="#" className="social-use-btn d-flex align-items-center justify-content-center tran3s w-100 mt-10">
-                    <Image src={facebook} alt="facebook" />
-                    <span className="ps-3">Signup with Facebook</span>
-                  </Link>
-                </div>
+              
               </div>
             </div>
           </div>

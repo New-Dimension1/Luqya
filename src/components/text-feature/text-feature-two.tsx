@@ -42,43 +42,40 @@ const TextFeatureTwo = () => {
           <div className="col-xl-6 col-lg-7">
             <div className="title-one">
               <h2 className="text-white">
-                The Numbers Reflect Our Reputation.
+       حلول ذكية لإرسال دعواتك وتنظيم حضور مناسبتك
               </h2>
             </div>
           </div>
           <div className="col-lg-5 ms-auto">
-            <p className="m0 text-md text-white md-pt-10">
-              Efficient problem-solving, insightful market analysis, and
-              actionable plans made the consulting invaluable to our business
-              success.
+            <p className="m0 text-md  md-pt-10">
+                       نوفر لك نظامًا احترافيًا لإرسال الدعوات الإلكترونية وإدارة حضور المدعوين بسهولة وفعالية.
             </p>
           </div>
         </div>
 
         <div className="row gx-0 mt-50 lg-mt-20 md-mt-10">
-          <div className="col-lg-4">
+            <div className="col-lg-4">
             <CardStyle
               icon={icon_1}
-              num={120}
-              text="mil+"
-              desc="We’ve experience more than 10+ years with success."
+              num={150}
+              text="ألف+"
+              desc="عدد الدعوات المُرسلة عبر منصتنا."
             />
           </div>
           <div className="col-lg-4">
             <CardStyle
               icon={icon_2}
-              num={1.3}
-              text="b+"
-              desc="We achieve lot for our work from top certified agency."
-              decimal={true}
+              num={95}
+              text="%"
+              desc="نسبة الحضور المحقق بفضل نظام التأكيد الذكي."
             />
           </div>
           <div className="col-lg-4">
             <CardStyle
               icon={icon_3}
-              num={730}
-              text="k+"
-              desc="We’ve more than happy 3000+ client all over the world."
+              num={3000}
+              text="+"
+              desc="جهات نظّمت فعالياتها باستخدام خدماتنا."
             />
           </div>
         </div>

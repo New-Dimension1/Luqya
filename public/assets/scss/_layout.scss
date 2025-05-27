@@ -602,7 +602,7 @@
 }
 // Text Feature Two
 .text-feature-two {
-    background: $color-three;
+    background: $color-seven;
     z-index: 1;
     .shape_01 {
         top:16%;
@@ -625,8 +625,68 @@
    .counter-wrapper {
     border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
    }
+     .form-wrapper {
+        max-width: 565px;
+        .input-group-meta {
+            input {
+                width: 100%;
+                height: 55px;
+                font-size: 16px;
+                border:1px solid rgba($color: #254035, $alpha: 0.06);
+                border-radius: 8px;
+                padding: 0 52px 0 20px;
+                color: #000;
+                background: rgba($color: #000, $alpha: 0.04);
+            }
+            label {
+                font-size: 16px;
+                font-weight: normal;
+                color: rgba(52, 46, 46, 0.5);
+                display: block;
+                margin-bottom: 6px;
+            }
+            .placeholder_icon {
+                position: absolute;
+                height: 55px;
+                top:30px;
+                right:0;
+                bottom: 0;
+                width: 50px;
+                text-align: center;
+                z-index: 1;
+                color: rgba(0,0,0,0.45);
+                font-size: 17px;
+            }
+            .placeholder_icon img {
+                position: relative;
+                top:50%;
+                margin: 0 auto;
+                transform: translateY(-50%);
+            }
+            .placeholder_icon span {
+                width: 100%;
+                height: 100%; 
+                cursor: pointer;
+                display: block;
+                position: relative;
+            }
+            .placeholder_icon span:before {
+                content: '';
+                width: 2px;
+                height: 26px;
+                background: #000;
+                position: absolute;
+                top:14px;
+                left: 24px;
+                transform: rotate(45deg);
+                z-index: 5;
+                transition: all 0.2s ease-in-out;
+            }
+            .placeholder_icon span.eye-slash:before {opacity: 0;}
+        }
+    }
    .media-wrapper {
-    background: url(../images/media/img_13.jpg) no-repeat center;
+    background: url(../images/media/v20.webp) no-repeat center;
     background-size: cover;
     border-radius: 30px;
     z-index: 1;
@@ -1020,6 +1080,7 @@
 }
 // Pricng
 .pricing-section {
+
     .contact-banner {
         background: #fff;
         border-radius: 30px;

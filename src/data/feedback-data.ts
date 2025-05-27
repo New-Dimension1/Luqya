@@ -14,40 +14,41 @@ type ITestimonial = {
   rating:number;
 }
 
-export const feed_back_two:ITestimonial[] = [
+export const feed_back_two: ITestimonial[] = [
   {
-    id:1,
-    user:user_1,
-    name:'James Bond.',
-    location:'Thailad',
-    desc:'We are absolutely thrilled with the services provided by Luqya! Their team went above and beyond to transform our outdated website into a stunning, user-friendly masterpiece.',
-    rating:5
+    id: 1,
+    user: user_1,
+    name: 'سارة القحطاني',
+    location: 'الرياض',
+    desc: 'بصراحة الخدمة أكثر من رائعة! أرسلت دعوات الحفل بكل سهولة، والتصميم كان أنيق جدًا والضيوف انبهروا! حسّيت إني وفّرت وقت وجهد كثير، الله يعطيكم العافية.',
+    rating: 5
   },
   {
-    id:2,
-    user:user_2,
-    name:'James Bond.',
-    location:'Thailad',
-    desc:'It has been an absolute pleasure working with Luqya on our brand identity overhaul. Their ability to capture the essence of our culinary vision and translate it into a visual identity has been commendable.',
-    rating:4
+    id: 2,
+    user: user_2,
+    name: 'أحمد السبيعي',
+    location: 'الدمام',
+    desc: 'أول مرة أجرب إرسال الدعوات إلكترونيًا، وطلعت تجربة خرافية! سهّلت علي التنظيم والتواصل مع الضيوف، وكل شي كان مرتب واحترافي. أكيد بتعامل معكم دايمًا.',
+    rating: 5
   },
   {
-    id:3,
-    user:user_1,
-    name:'Mark Smith',
-    location:'United state',
-    desc:'It has been an absolute pleasure working with Luqya on our brand identity overhaul. Their ability to capture the essence of our culinary vision and translate it into a visual identity has been commendable.',
-    rating:5
+    id: 3,
+    user: user_1,
+    name: 'نوف العتيبي',
+    location: 'جدة',
+    desc: 'ما كنت أتوقع إن إرسال الدعوات بيكون بهالسهولة! المنصة مرررة سهلة وسريعة، والتعامل راقٍ جدًا. شكرًا من القلب على خدمتكم الرائعة.',
+    rating: 4
   },
   {
-    id:4,
-    user:user_2,
-    name:'Jon Doe',
-    location:'Dubai',
-    desc:'Luqya thumbs up to the team! Their personalized approach to fitness training has been a breath of fresh air. The trainers are not only knowledgeable but also genuinely invested in their clients well-being',
-    rating:3
+    id: 4,
+    user: user_2,
+    name: 'فهد العنزي',
+    location: 'أبها',
+    desc: 'تعامل ولا أروع! جربت خدمتكم لإرسال دعوات مناسبة عائلية وكل شي تم بسلاسة، حتى الضيوف مدحوا طريقة الاستلام والتنظيم. أنصح فيها وبقوة.',
+    rating: 5
   },
-]
+];
+
 
 // feedback one start
 export const feedback_one = [

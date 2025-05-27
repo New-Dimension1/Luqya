@@ -44,7 +44,7 @@
 .accordion-style-two {
     .accordion-item {
         border: none;
-        background: #FFFAEB;
+        background: #f4e9e0;
         border-radius: 0;
         .accordion-button {
             font-weight: 500;
@@ -61,13 +61,15 @@
                 border-bottom-right-radius: 0 !important;
                 &:after {
                     content: '-';
-                    font-size: 1.5em;
-                    line-height: 36px;
+                         line-height: 48px;
+                font-size: 32px;
+                    
                 }
             }
             &:after {
                 content: '+';
                 font-weight: 400;
+                margin: 10px;
                 text-align: center;
                 color: #000;
                 line-height: 48px;
@@ -127,23 +129,23 @@
             border-radius: 40px 40px 0 0;
         }
         &:nth-child(2) {
-            background: #FFFAEB;
+            background: #f4e9e0;
             .accordion-button {
-                background: #FBF4DC;
+                background:#eedcce;
             }
             .accordion-body {
-                background: #FBF4DC;
+                background: #eedcce;
             }
         }
         &:nth-child(3) {
-            background: #f9efcf;
+            background: $color-seven;
             border-radius: 0 0 40px 40px;
             .accordion-button {
-                background: #F9EFCF;
+                background: $color-seven;
                 border-radius: 0 0 40px 40px;
             }
             .accordion-body {
-                background: #F9EFCF;
+                background: $color-seven;
                 border-radius: 0 0 40px 40px;
             }
         }
@@ -248,13 +250,13 @@
                 border:1px solid rgba($color: #254035, $alpha: 0.06);
                 border-radius: 8px;
                 padding: 0 52px 0 20px;
-                color: #000;
+                color: #ec0b0b;
                 background: rgba($color: #000, $alpha: 0.04);
             }
             label {
                 font-size: 16px;
                 font-weight: normal;
-                color: rgba(0, 0, 0, 0.5);
+                color: rgba(206, 14, 14, 0.5);
                 display: block;
                 margin-bottom: 6px;
             }
