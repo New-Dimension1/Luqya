@@ -34,11 +34,11 @@ const FooterThree = ({style_2}:{style_2?:boolean}) => {
               <h5 className="footer-title">روابط</h5>
               <ul className="footer-nav-link style-none">
                 <li><Link href="/">الرئيسية</Link></li>
-                <li><Link href="/pricing">خطط الأسعار</Link></li>
-                <li><Link href="/about-us">من نحن</Link></li>
-                <li><Link href="/service-v1">خدماتنا</Link></li>
-                <li><Link href="/project-v2">أعمالنا</Link></li>
-                <li><Link href="/service-v2">سياسة الإلغاء والتأجيل</Link></li>
+                <li><Link href="/">خطط الأسعار</Link></li>
+                <li><Link href="/">من نحن</Link></li>
+                <li><Link href="/">خدماتنا</Link></li>
+                <li><Link href="/">أعمالنا</Link></li>
+                <li><Link href="/">سياسة الإلغاء والتأجيل</Link></li>
               </ul>
             </div>
             <div className="col-xxl-2 col-lg-3 col-sm-4 mb-20">

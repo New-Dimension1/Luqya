@@ -1,6 +1,4 @@
-import bg_img_1 from '@/assets/images/media/img_01.jpg';
-import bg_img_2 from '@/assets/images/media/img_02.jpg';
-import bg_img_3 from '@/assets/images/media/img_16.jpg';
+import bg_img_1 from '@/assets/images/media/v20.webp';
 import { IProject } from '@/types/project-d-t';
 
 const project_data: IProject[] = [
@@ -35,7 +33,7 @@ const project_data: IProject[] = [
       'أضف موقع الحفل عشان يسهل الوصول للضيوف.',
       'الضيف يقدر يتواصل مع صاحب المناسبة مباشرة لأي استفسار أو اعتذار.'
     ],
-    bg_img: bg_img_2,
+    bg_img: bg_img_1,
     video_id: 'DPjYyCcw4Po',
     parent: 'accordionOne',
     page: 'home'
@@ -51,7 +49,7 @@ const project_data: IProject[] = [
       'عدل نص الدعوة كيف ما تحب.',
       'تقدر تخصص تصميم كود الدخول بالطريقة اللي تبيها.',
     ],
-    bg_img: bg_img_3,
+    bg_img: bg_img_1,
     video_id: 'aXFSJTjVjw0',
     isShow: true,
     parent: 'accordionOne',
