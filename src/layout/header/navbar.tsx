@@ -5,8 +5,8 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 // internal
-import logo from "@/assets/images/logo/logo_02.svg";
-import logo_2 from "@/assets/images/logo/logo_01.svg";
+import logo from "@/assets/images/logo/logo.svg";
+import logo_2 from "@/assets/images/logo/logo.svg";
 import icon_1 from "@/assets/images/icon/icon_14.svg";
 import icon_2 from "@/assets/images/icon/icon_15.svg";
 import menu_data from "@/data/menu-data";
@@ -24,7 +24,7 @@ const Navbar = ({ logo_white = false }: { logo_white?: boolean }) => {
       <li className="d-block d-lg-none">
         <div className="logo">
           <Link href="/" className="d-block">
-            <Image src={logo_white ? logo_2 : logo} alt="logo" />
+            <Image src={logo_white ? logo_2 : logo} alt="logo" height={90}  />
           </Link>
         </div>
       </li>
@@ -126,24 +126,24 @@ const Navbar = ({ logo_white = false }: { logo_white?: boolean }) => {
           data-bs-target="#loginModal"
           className="signup-btn-one icon-link w-100 mt-20"
         >
-          <span className="flex-fill text-center">Signup</span>
+          <span className="flex-fill text-center">تسجيل جديد</span>
           <div className="icon rounded-circle d-flex align-items-center justify-content-center">
             <i className="bi bi-arrow-left"></i>
           </div>
         </a>
         <ul className="style-none contact-info m0 pt-30">
           <li className="d-flex align-items-center p0 mt-15">
-            <Image src={icon_1} alt="icon" className="lazy-img icon me-2" />
-            <Link href="mailto:New Dimensionsinc@company.com" className="fw-500">
-              New Dimensionsinc@company.com
+            <Image src={icon_1} alt="icon" className="lazy-img icon mx-2" />
+            <Link href="mailto:NewDimensions@ND.com" className="fw-500">
+              NewDimensions@ND.com
             </Link>
           </li>
-          <li className="d-flex align-items-center p0 mt-15">
+          {/* <li className="d-flex align-items-center p0 mt-15">
             <Image src={icon_2} alt="icon" className="lazy-img icon me-2" />
             <Link href="tel:+757 699-4478" className="fw-500">
               +757 699-4478
             </Link>
-          </li>
+          </li> */}
         </ul>
       </li>
     </ul>

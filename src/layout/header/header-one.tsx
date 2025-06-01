@@ -43,12 +43,12 @@ const HeaderOne = () => {
               </div>
 
               <div className="right-widget order-lg-3 me-auto">
-                <ul className="d-flex align-items-center style-none gap-4">
-                  <li className="d-flex align-items-center login-btn-one  me-md-0">
+                <ul className="d-flex align-items-center style-none ">
+                  <li className="d-flex align-items-center login-btn-one  me-md-0 mx-2">
                     <Image src={icon_3} alt="icon" className="lazy-img icon " />
                     <Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="fw-500">تسجيل دخول</Link>
                   </li>
-                  <li className="d-none d-md-inline-block   me-lg-0">
+                  <li className="d-none d-md-inline-block   me-lg-0 mx-2">
                     <Link href="#" data-bs-toggle="modal" data-bs-target="#loginModal" className="signup-btn-one icon-link">
                       <span>تسجيل جديد</span>
                       <div className="icon rounded-circle d-flex align-items-center justify-content-center"><i className="bi bi-arrow-left"></i></div>

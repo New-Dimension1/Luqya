@@ -8,6 +8,7 @@ import shape_2 from '@/assets/images/shape/shape_37.svg';
 import shape_3 from '@/assets/images/shape/shape_39.svg';
 import FooterSocial from './footer-social';
 
+
 const FooterThree = ({style_2}:{style_2?:boolean}) => {
   return (
     <div className="footer-three">
@@ -46,8 +47,8 @@ const FooterThree = ({style_2}:{style_2?:boolean}) => {
 				تطبيقنا
 			  </h5>
                  <ul className="footer-nav-link style-none">
-                <li><Link href="/"><img src='./assets/images/assets/apple_store_2.webp' /></Link></li>
-                <li><Link href="/pricing"> <img src='./assets/images/assets/google_store_2.webp' /></Link></li>
+                <li><Link href="/"><Image src='/assets/images/assets/apple_store_2.webp' alt='apple_store' height={60} width={160} /></Link></li>
+                <li><Link href="/pricing"> <Image src='/assets/images/assets/google_store_2.webp' alt='google_store'  height={60} width={160} /></Link></li>
             
               </ul>
             </div>
